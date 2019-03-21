@@ -1,16 +1,17 @@
 import React from 'react';
-import CommentSection from './CommentSection/commentSection';
+
+import Post from './Post';
 
 
 
-function PostContainer(props) {
+
+
+const PostContainer = props => {
     return (
-        <>
-            {props.posts.map(x => (
-                <imageUrl={x.imageUrl} 
-            ))}
-        </>
-    )
-}
+        <div>
+            {props.posts.map(p => <Post key={p.imageUrl} post={p} />)}
+         </div>
+    );
+};
 
 export default PostContainer;
