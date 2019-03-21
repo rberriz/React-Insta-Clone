@@ -10,8 +10,8 @@ const CommentInput = props => {
         onChange={props.changeComment}
       />
     </form>
-    )
-}
+    );
+};
 
 
 export default CommentInput;
