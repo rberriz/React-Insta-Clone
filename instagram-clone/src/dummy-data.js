@@ -1,4 +1,4 @@
-const dummyData = [
+const DummyData = [
   {
     username: "philzcoffee",
     thumbnailUrl:
